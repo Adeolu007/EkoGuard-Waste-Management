@@ -1,0 +1,67 @@
+::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #4677ac;
+  --tw-gradient-to: #4677ac;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #4677ac;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: "Spectral", "Lato", "Montserrat", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spectral";
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 120%;
+}
+
+h2 {
+  font-size: 61px;
+  line-height: 150%;
+}
+
+h3 {
+  font-size: 47px;
+  line-height: 150%;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 150%;
+}
+
+h5 {
+  font-size: 27px;
+  line-height: 150%;
+}
+
+h6 {
+  font-size: 21px;
+  line-height: 150%;
+}

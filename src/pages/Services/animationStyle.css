@@ -1,0 +1,84 @@
+@keyframes fadeIn {
+  0% {
+    top: 18rem;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 18rem;
+  }
+}
+
+.animate {
+  position: absolute;
+  left: 0;
+  background-color: #f5f5f5;
+  max-width: 190px;
+  min-height: 254px;
+  padding: 16px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.animate-fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  top: 0;
+}
+
+.animate-fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  top: 20rem;
+}
+
+@keyframes slideIn {
+  0% {
+    bottom: 1rem;
+  }
+  100% {
+    bottom: -18rem;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    bottom: 1rem;
+  }
+  100% {
+    bottom: -18rem;
+  }
+}
+
+.text-slide {
+  position: absolute;
+  font-size: 1.7rem;
+  transition: all 0.3s ease-in;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.text-slide-out {
+  animation-name: slideOut;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  bottom: -18rem;
+}
+
+.text-slide-in {
+  animation-name: slideIn;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+
+  bottom: 1rem;
+}

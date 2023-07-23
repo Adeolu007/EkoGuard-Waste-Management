@@ -1,0 +1,15 @@
+@keyframes dropIn {
+  0% {
+    transform: translateY(-5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.dropInField {
+  animation-name: dropIn;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+}

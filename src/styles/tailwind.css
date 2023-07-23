@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../assets/fonts/Spectral-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spectral_Semi_Bold";
+  src: url("../assets/fonts/Spectral-SemiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spectral_Bold";
+  src: url("../assets/fonts/Spectral-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato_Bold";
+  src: url("../assets/fonts/Lato-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YsabeauInfant";
+  src: url("../assets/fonts/YsabeauInfant-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "YsabeauInfant_Italic";
+  src: url("../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+}
